@@ -112,3 +112,8 @@ body > footer a:hover {
 	text-decoration: underline;
 	text-decoration-color: #3daae9;
 }
+@media (orientation: portrait) {
+	body > footer {
+		text-align: center;
+	}
+}
