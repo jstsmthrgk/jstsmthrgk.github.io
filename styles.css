@@ -64,6 +64,9 @@ body > nav a:hover {
 	body > nav li {
 		float: none;
 	}
+	body > nav a {
+		padding: 1em;
+	}
 }
 
 
