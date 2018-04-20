@@ -1,3 +1,98 @@
-body {
+* {
 	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #4d4d4d;
+}
+
+
+body > header {
+	margin: 0;
+	color: #eff0f1;
+}
+body > header h1 {
+	display: block;
+	font-size: 2em;
+	max-width: 64rem;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+}
+
+
+body > nav {
+	background-color: #31363b;
+	width: 100%;
+}
+body > nav * {
+	background-color: #31363b;
+	color: #eff0f1;
+}
+body > nav ul {
+	list-style-type: none;
+	display:block;
+	overflow:hidden;
+	max-width: 64em;
+	margin-left: auto;
+	margin-right: auto;
+}
+body > nav li {
+	float: left;
+}
+body > nav a {
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+}
+body > nav a:hover {
+	background-color: #3daee9;
+}
+
+
+body > main {
+	background-color: #eff0f1;
+	padding: 1em;
+}
+body > main > section , body > main > article{
+	max-width: 64rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #232629;
+}
+body > main p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+body > main a {
+	text-decoration: none;
+	color: #2980b9;
+}
+body > main a:hover {
+	text-decoration: underline;
+	text-decoration-color: #2980b9;
+}
+
+
+body > footer {
+	padding: 0.5em;
+	background-color: #31363b;
+	text-align: right;
+	font-size: 0.75em;
+}
+body > footer * {
+	color: #eff0f1;
+}
+body > footer a {
+	text-decoration: none;
+	color: #3daee9;
+}
+body > footer a:hover {
+	text-decoration: underline;
+	text-decoration-color: #3daae9;
 }
