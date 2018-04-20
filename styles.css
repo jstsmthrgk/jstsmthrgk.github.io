@@ -50,6 +50,21 @@ body > nav a:hover {
 	background-color: #3daee9;
 }
 
+@media (orientation: portrait) {
+	body > nav {
+		display: none;
+	}
+	body > nav:hover {
+		display: block;
+	}
+	body > header:hover ~ nav {
+		display: block;
+	}
+	body > nav li {
+		float: none;
+	}
+}
+
 
 body > main {
 	background-color: #eff0f1;
