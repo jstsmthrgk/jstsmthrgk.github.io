@@ -93,7 +93,7 @@ body > main > * {
 	margin-left: auto;
 	margin-right: auto;
 }
-body > main h1, h2, h3, h4, h5, h6 {
+body > main h2, body > main h3, body > main h4, body > main h5, body > main h6 {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
 }
@@ -108,6 +108,12 @@ body > main a {
 body > main a:hover {
 	text-decoration: underline;
 	text-decoration-color: #2980b9;
+}
+body > main > :first-child {
+	margin-top: 0;
+}
+body > main > :last-child {
+	margin-bottom: 0;
 }
 
 
