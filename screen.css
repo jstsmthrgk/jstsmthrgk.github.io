@@ -23,6 +23,15 @@ body > header h1 {
 	user-select: none;
 }
 
+@media (orientation: portrait) {
+	body > header {
+		background-image: URL("menu.svg");
+		background-repeat: no-repeat;
+		background-position: right;
+		background-origin: content-box;
+	}
+}
+
 
 body > nav {
 	background-color: #31363b;
