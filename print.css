@@ -4,12 +4,10 @@
 body > header, body > nav {
 	display: none;
 }
-body > footer p{
-	margin: 0;
-	margin-top: 3rem;
-	padding: 1em;
+body > footer {
+	margin-top: 1rem;
 	font-size: 0.75em;
-	border: 1px solid black;
+	border-top: 1px solid black;
 }
 a {
 	text-decoration: none;
