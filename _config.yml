@@ -1,0 +1,8 @@
+lang: en
+defaults:
+    -
+        scope:
+            path: ""
+            type: "pages"
+        values:
+            layout: "default"
