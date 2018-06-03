@@ -1,4 +1,5 @@
 ---
+title: Home
 ---
 ## What is this website all about?
 I just wanted to make a better website than [Elias Wöginger](https://woegingerelias.azurewebsites.net), that's it.
