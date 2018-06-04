@@ -121,10 +121,20 @@ body > main {
 		text-decoration: underline;
 		text-decoration-color: #2980b9;
 	}
+
+	table {
+		border-collapse: collapse;
+	}
+
+	table, th, td {
+		border: 1px solid black;
+	}
 }
+
 body > main > :first-child {
 	margin-top: 0;
 }
+
 body > main > :last-child {
 	margin-bottom: 0;
 }
