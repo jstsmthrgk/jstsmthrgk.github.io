@@ -15,14 +15,15 @@ body > header {
 	color: #eff0f1;
 	background-color: #4d4d4d;
 	padding: 1rem;
-}
-body > header h1 {
-	display: block;
-	font-size: 2em;
-	max-width: 64rem;
-	margin-left: auto;
-	margin-right: auto;
-	user-select: none;
+
+	h1 {
+		display: block;
+		font-size: 2em;
+		max-width: 64rem;
+		margin-left: auto;
+		margin-right: auto;
+		user-select: none;
+	}
 }
 
 @media (orientation: portrait) {
@@ -40,29 +41,34 @@ body > nav {
 	width: 100%;
 	top: 0;
 	position: sticky;
-}
-body > nav * {
-	background-color: #31363b;
-	color: #eff0f1;
-}
-body > nav ul {
-	list-style-type: none;
-	display:block;
-	overflow:hidden;
-	max-width: 64em;
-	margin-left: auto;
-	margin-right: auto;
-}
-body > nav li {
-	float: left;
-}
-body > nav a {
-	display: block;
-	padding: 0.5em;
-	text-decoration: none;
-}
-body > nav a:hover {
-	background-color: #3daee9;
+
+	* {
+		background-color: #31363b;
+		color: #eff0f1;
+	}
+
+	ul {
+		list-style-type: none;
+		display:block;
+		overflow:hidden;
+		max-width: 64em;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	li {
+		float: left;
+	}
+
+	a {
+		display: block;
+		padding: 0.5em;
+		text-decoration: none;
+	}
+
+	a:hover {
+		background-color: #3daee9;
+	}
 }
 
 @media (orientation: portrait) {
@@ -89,27 +95,32 @@ body > main {
 	background-color: #eff0f1;
 	padding: 1em;
 	color: #232629;
-}
-body > main > * {
-	max-width: 64rem;
-	margin-left: auto;
-	margin-right: auto;
-}
-body > main h2, body > main h3, body > main h4, body > main h5, body > main h6 {
+
+	* {
+		max-width: 64rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h2, h3, h4, h5, h6 {
 	margin-top: 1em;
 	margin-bottom: 0.5em;
-}
-body > main p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-body > main a {
-	text-decoration: none;
-	color: #2980b9;
-}
-body > main a:hover {
-	text-decoration: underline;
-	text-decoration-color: #2980b9;
+	}
+
+	p {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	a {
+		text-decoration: none;
+		color: #2980b9;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		text-decoration-color: #2980b9;
+	}
 }
 body > main > :first-child {
 	margin-top: 0;
@@ -124,18 +135,22 @@ body > footer {
 	background-color: #31363b;
 	text-align: right;
 	font-size: 0.75em;
-}
-body > footer * {
+
+	* {
 	color: #eff0f1;
+	}
+
+	a {
+		text-decoration: none;
+		color: #3daee9;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		text-decoration-color: #3daae9;
+	}
 }
-body > footer a {
-	text-decoration: none;
-	color: #3daee9;
-}
-body > footer a:hover {
-	text-decoration: underline;
-	text-decoration-color: #3daae9;
-}
+
 @media (orientation: portrait) {
 	body > footer {
 		text-align: center;
