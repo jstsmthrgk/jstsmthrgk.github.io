@@ -129,6 +129,9 @@ body > main {
 	table, th, td {
 		border: 1px solid black;
 	}
+	ul, ol {
+		list-style-position: inside;
+	}
 }
 
 body > main > :first-child {
