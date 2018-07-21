@@ -68,6 +68,11 @@ title: Windows - Device Setup
 - [**GVim**](https://www.vim.org/download.php#pc) (only for power users) _free_ (Vim license)
 
 
+### Mathematics
+
+- [**GeoGebra Classic 6**](https://wiki.geogebra.org/en/Reference:GeoGebra_Installation#GeoGebra_Classic_6) _gratis_
+
+
 ### Gaming
 
 - [**Steam**](https://store.steampowered.com/about/) _gratis*_
