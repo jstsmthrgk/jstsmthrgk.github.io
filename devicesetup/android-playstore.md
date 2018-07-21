@@ -1,7 +1,7 @@
 ---
-title: Android (with F-Droid) - Device Setup
+title: Android (without F-Droid) - Device Setup
 ---
-## Android (with F-Droid)
+## Android (without F-Droid)
 
 ### Web Browser
 
