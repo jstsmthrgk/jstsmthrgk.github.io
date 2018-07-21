@@ -41,6 +41,7 @@ title: Android (without F-Droid) - Device Setup
 ### File Managers
 
 - [**FX**](https://play.google.com/store/apps/details?id=nextapp.fx) _gratis_
+- [**Total Commander**](https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) _gratis_
 
 
 ### Mathematics
