@@ -3,6 +3,9 @@ title: Android (with F-Droid) - Device Setup
 ---
 ## Android (with F-Droid)
 
+You need to enable "unknown sources" in the security settings of your device to install F-Droid.
+This isn't something bad, it just allows you to install apps from somewhere else as the Play Store.
+
 ### App Store
 
 - [**F-Droid**](https://f-droid.org/) _free (GPL)_
