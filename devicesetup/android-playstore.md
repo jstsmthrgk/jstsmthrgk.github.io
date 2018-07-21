@@ -23,6 +23,13 @@ title: Android (without F-Droid) - Device Setup
 - [**OpenKeychain**](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain) (for K-9 Mail) (recommended) _free (GPL)_
 
 
+### Messenger
+
+- [**Threema**](https://play.google.com/store/apps/details?id=ch.threema.app) _payed_
+- [**Telegram**](https://play.google.com/store/apps/details?id=org.telegram.messenger) _gratis_
+- [**WhatsApp**](https://play.google.com/store/apps/details?id=com.whatsapp) _gratis_
+
+
 ### Map
 
 - [**OsmAnd~**](https://play.google.com/store/apps/details?id=net.osmand) (recommended) _free (GPL)_

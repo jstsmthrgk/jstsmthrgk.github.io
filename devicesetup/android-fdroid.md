@@ -36,6 +36,13 @@ This isn't something bad, it just allows you to install apps from somewhere else
 - [**OpenKeychain**](https://f-droid.org/packages/org.sufficientlysecure.keychain/) (for K-9 Mail) (recommended) _free (GPL)_
 
 
+### Messenger
+
+- [**Threema**](https://threema.ch/download) _payed_
+- [**Telegram**](https://f-droid.org/packages/org.telegram.messenger/) _free (GPL)_
+- [**WhatsApp**](https://play.google.com/store/apps/details?id=com.whatsapp) _gratis_
+
+
 ### Map
 
 - [**OsmAnd~**](https://f-droid.org/packages/net.osmand.plus/) (recommended) _free (GPL)_
