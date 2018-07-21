@@ -5,14 +5,14 @@ title: Windows - Device Setup
 
 ### Web Browsers
 
-- [**Mozilla Firefox**](https://www.mozilla.org/en/firefox/new/) (recommended) _free (MPL, GPL, LGPL)_
+- [**Mozilla Firefox**](https://www.mozilla.org/firefox/new/) (recommended) _free (MPL, GPL, LGPL)_
 - [**Google Chrome**](https://www.google.com/chrome/) _gratis_
 
 #### Browser Addons
 
-- **uBlock Origin** [Firefox](https://addons.mozilla.org/de/firefox/addon/ublock-origin/)/[Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) Adblocker _free (GPL)_
+- **uBlock Origin** [Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin/)/[Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) Adblocker _free (GPL)_
 - [**EFF Privacy Badger**](https://www.eff.org/privacybadger) Tracker-blocker _free (GPL)_
-- [**Firefox Multi-Account Containers**](https://addons.mozilla.org/de/firefox/addon/multi-account-containers/) _free (MPL)_
+- [**Firefox Multi-Account Containers**](https://addons.mozilla.org/firefox/addon/multi-account-containers/) _free (MPL)_
 
 
 ### Office Suites
@@ -23,13 +23,13 @@ title: Windows - Device Setup
 
 ### E-Mail Clients
 
-- [**Thunderbird**](https://www.thunderbird.net/en/) (recommended) _free (MPL, GPL, LGPL)_
-- [**Outlook**](https://products.office.com/en-US/) _payed_
+- [**Thunderbird**](https://www.thunderbird.net) (recommended) _free (MPL, GPL, LGPL)_
+- [**Outlook**](https://products.office.com/outlook/) _payed_
 
 #### E-Mail Encryption
 
 - [**GPG4Win**](https://gpg4win.org/download.html) (OpenPGP implementation) _free (GPL)_
-- [**Enigmail**](https://enigmail.net/index.php/en/) (for Thunderbird, requires GPG4Win) _free (MPL)_
+- [**Enigmail**](https://enigmail.net/index.php/) (for Thunderbird, requires GPG4Win) _free (MPL)_
 
 
 ### Archivers
@@ -41,7 +41,7 @@ title: Windows - Device Setup
 ### PDF Viewers
 
 - [**SumatraPDF**](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html) (recommended) _free (GPL)_
-- [**Adobe Acrobat Reader**](https://get.adobe.com/de/reader/otherversions/) _gratis_
+- [**Adobe Acrobat Reader**](https://get.adobe.com/reader/otherversions/) _gratis_
 
 
 ### Ebook Manager
@@ -57,8 +57,8 @@ title: Windows - Device Setup
 
 ### Image Editors
 
-- [**Adobe Photoshop**](https://www.adobe.com/de/products/photoshop.html) _payed_
-- [**Krita**](https://krita.org/en/download/krita-desktop/) (recommended) _free (GPL)_
+- [**Adobe Photoshop**](https://www.adobe.com/products/photoshop.html) _payed_
+- [**Krita**](https://krita.org/download/krita-desktop/) (recommended) _free (GPL)_
 - [**GIMP**](https://www.gimp.org/downloads/) _free (GPL)_
 
 
