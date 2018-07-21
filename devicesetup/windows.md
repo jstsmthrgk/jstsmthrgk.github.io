@@ -66,6 +66,7 @@ title: Windows - Device Setup
 
 - [**Notepad++**](https://notepad-plus-plus.org/download/) (recommended) _free_ (GPL)
 - [**GVim**](https://www.vim.org/download.php#pc) (only for power users) _free_ (Vim license)
+- [**Atom**](https://atom.io/) (resource heavy) _free (MIT)_
 
 
 ### Mathematics
