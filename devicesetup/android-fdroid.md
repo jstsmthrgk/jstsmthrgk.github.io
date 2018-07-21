@@ -66,9 +66,9 @@ This isn't something bad, it just allows you to install apps from somewhere else
 
 ### Mathematics
 
-- [**Geogebra Graphing Calculator**](https://play.google.com/store/apps/details?id=org.geogebra.android) _gratis_
-- [**Geogebra Geometry**](https://play.google.com/store/apps/details?id=org.geogebra.android.geometry) _gratis_
-- [**Geogebra 3D Graphing**](https://play.google.com/store/apps/details?id=org.geogebra.android.g3d) _gratis_
+- [**GeoGebra Graphing Calculator**](https://play.google.com/store/apps/details?id=org.geogebra.android) _gratis_
+- [**GeoGebra Geometry**](https://play.google.com/store/apps/details?id=org.geogebra.android.geometry) _gratis_
+- [**GeoGebra 3D Graphing**](https://play.google.com/store/apps/details?id=org.geogebra.android.g3d) _gratis_
 
 
 ### pkpass Viewers
