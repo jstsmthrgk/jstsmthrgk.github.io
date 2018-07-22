@@ -64,6 +64,11 @@ This isn't something bad, it just allows you to install apps from somewhere else
 - [**Total Commander**](https://play.google.com/store/apps/details?id=com.ghisler.android.TotalCommander) _gratis_
 
 
+### PDF Viewer
+
+- [**MuPDF Viewer**](https://f-droid.org/packages/com.artifex.mupdf.viewer.app/) _free (AGPL)_
+
+
 ### Mathematics
 
 - [**GeoGebra Graphing Calculator**](https://play.google.com/store/apps/details?id=org.geogebra.android) _gratis_
