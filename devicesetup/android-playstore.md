@@ -11,7 +11,7 @@ title: Android (without F-Droid) - Device Setup
 #### Browser Extensions
 
 - [**uBlock Origin**](https://addons.mozilla.org/firefox/addon/ublock-origin/) _free (GPL)_
-- [**EFF Privacy Badger**](https://www.eff.org/privacybadger) _free (GPL)_
+- [**EFF Privacy Badger**](https://addons.mozilla.org/firefox/addon/privacy-badger17/) _free (GPL)_
 
 
 ### E-Mail Client
