@@ -17,4 +17,4 @@ function compute() {
 }
 
 window.addEventListener("resize", compute);
-document.addEventListener("load", compute);
+compute();
