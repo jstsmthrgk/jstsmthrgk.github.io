@@ -14,6 +14,7 @@ body {
 }
 
 header {
+	flex-shrink: 0;
 	padding: 0;
 	background-color: #31363b;
 	color: #ffffff;
@@ -79,9 +80,11 @@ header {
 			}
 		}
 	}
-	header:hover nav:not(.hide), nav.show{
-		max-height: 1000px;
-		transition: max-height 0.5s ease-in-out;
+	header:hover:not(.nav-hide), header.nav-show{
+		nav {
+			max-height: 1000px;
+			transition: max-height 0.5s ease-in-out;
+		}
 	}
 }
 
@@ -97,6 +100,7 @@ main {
 }
 
 footer {
+	flex-shrink: 0;
 	background-color: #31363b;
 	color: #ffffff;
 	font-size: 0.75rem;

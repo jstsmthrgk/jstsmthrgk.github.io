@@ -1,11 +1,11 @@
 function togglenav() {
-	document.querySelector("body > header > nav").classList.toggle("show");
+	document.querySelector("body > header").classList.toggle("nav-show");
 	return false;
 }
 
 function hidenav(e) {
-	if (document.querySelector("body > header > nav").classList.contains("show")) {
-		document.querySelector("body > header > nav").classList.remove("show");
+	if (document.querySelector("body > header").classList.contains("nav-show")) {
+		document.querySelector("body > header").classList.remove("nav-show");
 		e.preventDefault();
 	}
 }
@@ -18,7 +18,7 @@ function compute() {
 	}
 }
 
-document.querySelector("body > header > nav").classList.add("hide");
+document.querySelector("body > header").classList.add("nav-hide");
 document.querySelector("body > main").addEventListener("click", hidenav);
 document.querySelector("body > footer").addEventListener("click", hidenav);
 window.addEventListener("resize", compute);
