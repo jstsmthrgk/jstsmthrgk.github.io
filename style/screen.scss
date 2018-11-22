@@ -57,6 +57,11 @@ header {
 		flex-direction: column;
 		h1 {
 			display: block;
+			background-image: URL("{{ "/menu.svg" | relative_url }}");
+			background-repeat: no-repeat;
+			background-position: right;
+			background-origin: content-box;
+			cursor: pointer;
 		}
 		nav {
 			max-height: 0;
