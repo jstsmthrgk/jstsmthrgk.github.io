@@ -2,127 +2,111 @@
 sitemap:
   exclude: 'yes'
 ---
+
+* {
+    font-family: sans-serif;
+}
+
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
-	background-color: #eff0f1;
-	font-family: sans-serif;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
-	margin: 0;
+    heigt: 100%;
+    margin: 0;
 }
 
-header {
-	flex-shrink: 0;
-	padding: 0;
-	background-color: #31363b;
-	color: #ffffff;
-	h1 {
-		display: inline-block;
-		padding: 0;
-		margin: 0.2em;
-		font-size: 2em;
-		vertical-align: middle;
-		background-image: URL("{{ "/logo_dark.svg" | relative_url }}");
-		background-size: contain;
-		background-repeat: no-repeat;
-		background-position: center center;
-		color: #ffffff00;
-	}
-	nav {
-		display: inline-block;
-		vertical-align: middle;
-		ul {
-			display: flex;
-			padding: 0;
-			margin: 0;
-			height: 100%;
-			list-style-type: none;
-			li {
-				padding: 0;
-				margin: 0;
-				a {
-					background-color: #40454a;
-					padding: 1em;
-					color: #ffffff;
-					text-decoration: none;
-				}
-				a:hover {
-					background-color: #3daae9;
-					text-decoration: none;
-				}
-			}
-		}
-	}
+body > header {
+    height: 2em;
+    padding: 0.5em;
+    h1 {
+        margin: 0;
+        height: 100%;
+        img {
+            height: 100%;
+        }
+    }
 }
 
-@media (orientation:portrait) {
-	header {
-		display: flex;
-		flex-direction: column;
-		background-image: URL("{{ "/menu.svg" | relative_url }}");
-		background-repeat: no-repeat;
-		background-position: right top;
-		background-origin: content-box;
-		background-size: 3.1em 3.1em;
-		h1 {
-			display: block;
-			cursor: pointer;
-		}
-		nav {
-			max-height: 0;
-			overflow: hidden;
-			transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
-			ul {
-				display: flex;
-				flex-direction: column;
-				li {
-					display: block;
-					a {
-						display: block;
-					}
-				}
-			}
-		}
-	}
-	header:hover:not(.nav-hide), header.nav-show{
-		nav {
-			max-height: 1000px;
-			transition: max-height 0.5s ease-in-out;
-		}
-	}
+body > nav {
+    position: sticky;
+    top: 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background: white;
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        li {
+            display: block;
+            a {
+                display: block;
+                padding: 0.5em;
+            }
+        }
+    }
 }
 
-main {
-	overflow-y: scroll;
-	flex-grow: 1;
-	padding: 0.5em;
-	* {
-		max-width: 64rem;
-		margin-left: auto;
-		margin-right: auto;
-	}
+body > main {
+    padding: 0.5em;
+    p {
+        text-align: justify;
+    }
+    > :first-child {
+        margin-top: 0;  
+    }
+    > :last-child {
+        margin-bottom: 0;  
+    }
 }
 
-footer {
-	flex-shrink: 0;
-	background-color: #31363b;
-	color: #ffffff;
-	font-size: 0.75rem;
-	padding: 0;
-	p {
-		margin: 0.5em;
-	}
+body > footer {
+    border-top: 1px solid black;
+    background: white;
+    padding: 0.5rem;
+    position: sticky;
+    bottom: 0;
+    font-size: 0.75em;
+    > :first-child {
+        margin-top: 0;  
+    }
+    > :last-child {
+        margin-bottom: 0;  
+    }
 }
 
 a {
-	color: #2478c8;
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: underline;
+    color: blue;
+    text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+@media (orientation: portrait) {
+    body > header {
+        background-image: URL("{{ "/menu.svg" | absolute_url }}");
+        background-repeat: no-repeat;
+        background-position: right;
+        background-origin: content-box;
+        cursor: pointer;
+    }
+    
+    body > nav {
+        max-height: 0;
+        overflow: hidden;
+        border-bottom: none;
+        ul {
+            flex-direction: column;
+        }
+    }
+    
+    body > nav:hover:not(.nav-hide), body > header:hover ~ nav:not(.nav-hide) , body > nav.nav-show {
+        max-height: none;
+        border-bottom: 1px solid black;
+    }
+}
